@@ -31,6 +31,8 @@ namespace Cake.LightModeConsole.Module
             }
         }
 
+        public bool SupportAnsiEscapeCodes => false;
+
         /// <summary>
         /// Writes the text representation of the specified array of objects to the
         /// console output using the specified format information.

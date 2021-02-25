@@ -10,12 +10,12 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/devlead/Cake.LightModeConsole.Module</PackageProjectUrl>
     <PackageIcon>cake-contrib-medium.png</PackageIcon>
-    <PackageTags>Cake;Script;Build;DevOps</PackageTags>
+    <PackageTags>Cake;Script;Build;DevOps;cake-module</PackageTags>
     <Description>Cake module that will use a console palette suitable for light background colors.</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Cake.Core" Version="0.36.0" />
+    <PackageReference Include="Cake.Core" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
